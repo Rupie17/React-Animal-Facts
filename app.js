@@ -6,7 +6,7 @@ const container = document.getElementById('app');
 const root = createRoot(container);
 const title = '';
 const realTitle = 'Click and animal for a fun fact';
-const background = <img className='background' alt='ocean' src='/images/ocean.jpg' />;
+const background = <img className='background' alt='ocean' src="images/ocean.jpg" />;
 
 function displayFact(e) {
   const animal = e.target.alt;
